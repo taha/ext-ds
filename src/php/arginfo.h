@@ -178,7 +178,7 @@ ZEND_END_ARG_INFO()
     ZEND_END_ARG_INFO()
 
 #define ARGINFO_NONE_RETURN_OBJ(name, class_name) \
-    DS_BEGIN_ARG_WITH_RETURN_OBJ_INFO_EX(name, 0, 0, #class_name, 1) \
+    DS_BEGIN_ARG_WITH_RETURN_OBJ_INFO_EX(name, 0, 0, #class_name, 0) \
     ZEND_END_ARG_INFO()
 
 #define ARGINFO_NONE_RETURN_BOOL(name) \

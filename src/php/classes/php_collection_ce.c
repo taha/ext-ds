@@ -24,7 +24,7 @@ void php_ds_register_collection()
 
     zend_class_implements(collection_ce, 3,
         zend_ce_aggregate,          // IteratorAggregate
-        spl_ce_Countable,           // Countable
+        zend_ce_countable,          // Countable
         php_json_serializable_ce    // Serializable
     );
 }
